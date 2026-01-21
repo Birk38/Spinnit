@@ -55,6 +55,14 @@ button:hover {
     justify-items: center;
 }
 
+@media (max-width: 480px) {
+    #results {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+}
+
+
 
 .vinyl {
     border: 1px solid #90e0ef;
